@@ -89,7 +89,7 @@ function renderHTML(componentHTML, initialState = {}, helmet) {
   `;
 }
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 2000;
 
 app.listen(PORT, () => {
   console.log(`Server listening on: ${PORT}`);
