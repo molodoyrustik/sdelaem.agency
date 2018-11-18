@@ -1,0 +1,117 @@
+.blog-section {
+  position: relative;
+  padding-top: 110px / 14px * 1vw;
+  padding-bottom: 305px / 14px * 1vw;
+  overflow: hidden;
+}
+
+.blog-section__subtitle {
+  margin-bottom: 30px / 14px * 1vw;
+  margin-left: 258px / 14px * 1vw;
+  opacity: 0.7;
+  font-family: Geometria;
+  font-size: 16px / 14px * 1vw;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.blog-section__title {
+  margin: 0;
+  margin-left: 252px / 14px * 1vw;
+  margin-bottom: 75px / 14px * 1vw;
+  font-family: Manrope;
+  font-size: 83px / 14px * 1vw;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.07;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+
+
+.blog-section__wrapper-list {
+  width: 1300px / 14px * 1vw;;
+  margin: 0 auto;
+  margin-bottom: 100px / 14px * 1vw;
+}
+
+.blog-section__list {
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  padding: 0;
+  column-gap: 20px; /* Общее расстояние между колонками */
+   -moz-column-gap: 20px; /* Расстояние между колонками для Firefox */
+  -webkit-column-gap: 20px; /* Расстояние между колонками  для Safari, Chrome и iOS */
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  column-count: 3;
+}
+
+.blog-section__item {
+  display: inline-block;
+  width: 401px / 14px * 1vw;
+  margin: 0;
+  padding: 30px / 14px * 1vw;;
+  margin-bottom: 50px / 14px * 1vw;
+  background-color: #fff;
+}
+
+.blog-section__item-img {
+  width: 100%;
+  margin-bottom: 12px / 14px * 1vw;;
+}
+
+.blog-section__item-title {
+  margin-bottom: 10px / 14px * 1vw;;
+  font-family: Geometria;
+  font-size: 18px / 14px * 1vw;;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.blog-section__item-desc {
+  margin-bottom: 25px / 14px * 1vw;;
+  font-family: Geometria;
+  font-size: 18px / 14px * 1vw;;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.blog-section__item-date {
+  opacity: 0.3;
+  font-family: Geometria;
+  font-size: 13px / 14px * 1vw;;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.08;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.blog-section__link {
+  text-align: center;
+}
+
+.blog-section__svg {
+  display: block;
+  position: absolute;
+  bottom: -193px / 14px * 1vw;
+  width: 100vw;
+  height: auto;
+}

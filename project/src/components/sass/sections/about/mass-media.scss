@@ -1,0 +1,145 @@
+.mass-media {
+  padding-left: 50px / 14px * 1vw;
+  padding-right: 50px / 14px * 1vw;
+  padding-bottom: 83px / 14px * 1vw;
+  background-color: #f4f4f4;
+}
+
+.mass-media__title-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 90px / 14px * 1vw;
+}
+
+.mass-media__title {
+  font-family: Manrope;
+  font-size: 32px / 14px * 1vw;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #3c3c3c;
+}
+
+// carousel start
+
+.mass-media__carousel {
+  width: 1300px / 14px * 1vw;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.mass-media__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 9999px;
+  text-decoration: none;
+  list-style: none;
+  transition: margin-left .3s
+}
+
+.mass-media__carousel-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1300px / 14px * 1vw;
+}
+
+.mass-media__item {
+  width: 383px / 14px * 1vw;
+  margin-bottom: 72px / 14px * 1vw;
+}
+
+.mass-media__controller-wrap {
+  
+}
+
+.mass-media__next-arrow {
+  width: 45px / 14px * 1vw;
+  height: 9px / 14px * 1vw;
+  margin-left: 40px / 14px * 1vw;
+  position: static;
+  opacity: 1;
+  cursor: pointer;
+  
+  #главная {
+    stroke: #8a8a8a;
+  }
+
+  &:hover {
+    #главная {
+      stroke: black;
+    }
+  }
+}
+
+.mass-media__prev-arrow {
+  width: 45px / 14px * 1vw;
+  height: 9px / 14px * 1vw;
+  position: static;
+  stroke: black;
+  opacity: 1;
+  cursor: pointer;
+
+  #главная {
+    stroke: #8a8a8a;
+  }
+
+  &:hover {
+    #главная {
+      stroke: black;
+    }
+  }
+}
+
+// carousel end
+
+.mass-media__item-img {
+  display: block;
+  margin: 0;
+  margin-bottom: 18px / 14px * 1vw;
+  padding: 0;
+  padding: 12px / 14px * 1vw;
+  background: #ffffff;
+}
+
+.mass-media__item-title {
+  margin-bottom: 14px / 14px * 1vw;
+  opacity: 0.7;
+  font-family: Geometria;
+  font-size: 15px  / 14px * 1vw;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.87;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.mass-media__item-desc {
+  margin-bottom: 16px / 14px * 1vw;
+  opacity: 0.7;
+  font-family: Geometria;
+  font-size: 15px / 14px * 1vw;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.87;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.mass-media__item-date {
+  opacity: 0.7;
+  font-family: Geometria;
+  font-size: 12px / 14px * 1vw;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.33;
+  letter-spacing: normal;
+  color: #7f7f7f;
+}

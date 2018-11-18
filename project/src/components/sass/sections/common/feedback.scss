@@ -1,0 +1,143 @@
+.feedback {
+    display: flex;
+    width: 100vw;
+}
+
+.feedback__contacts {
+    width: 470px / 14px * 1vw;
+    padding-top: 140px / 14px * 1vw;
+    padding-left: 145px / 14px * 1vw;
+    background-color: #f4f4f4;
+    text-align: left;
+}
+
+.feedback__contacts-title {
+  margin-bottom: 60px / 14px * 1vw;
+  font-family: Manrope;
+  font-size: 32px / 14px * 1vw;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #3c3c3c;
+}
+
+.feedback__socials {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.feedback__socials-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 43px / 14px * 1vw;
+    text-align: left;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.feedback__socials-link {
+    display: block;
+    margin: 0;
+    margin-left: 20px / 14px * 1vw;
+    padding: 0;
+    font-family: Geometria;
+    font-size: 16px / 14px * 1vw;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    color: #3c3c3c;
+    text-decoration: none;
+}
+
+
+.feedback__socials-img--sms {
+    width: 15px / 14px * 1vw;
+}
+.feedback__socials-img--skype {
+    width: 14px / 14px * 1vw;
+}
+.feedback__socials-img--tg {
+    width: 15px / 14px * 1vw;
+}
+.feedback__socials-img--phone {
+    width: 9px / 14px * 1vw;
+}
+
+
+.feedback__talk-form {
+    width: 930px / 14px * 1vw;
+    padding-top: 145px / 14px * 1vw;
+    padding-left: 100px / 14px * 1vw;
+    padding-bottom: 140px / 14px * 1vw;
+    background-color: #ffffff;
+}
+
+.feedback__talk-form-title {
+    margin-bottom: 65px / 14px * 1vw;
+    font-family: Manrope;
+    font-size: 32px / 14px * 1vw;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #3c3c3c;
+}
+
+.feedback__form {
+    margin: 0;
+    padding: 0;
+}
+
+.feedback__input--name {
+    margin-bottom: 65px / 14px * 1vw;
+}
+
+.feedback__input--email {
+    margin-bottom: 110px / 14px * 1vw;
+}
+
+.feedback__input--text {
+    margin-bottom: 65px / 14px * 1vw;
+}
+
+.feedback__btn {
+    display: block;
+    margin: 0;
+    margin-bottom: 40px / 14px * 1vw;
+    padding: 20px / 14px * 1vw 35px / 14px * 1vw;
+    font-family: Geometria;
+    font-size: 18px / 14px * 1vw;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    background-color: #3c3c3c;
+    border: none;
+    outline: none;
+}
+
+.feedback__personal-data {
+    width: 414px / 14px * 1vw;
+    font-family: Geometria;
+    font-size: 14px / 14px * 1vw;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.79;
+    letter-spacing: normal;
+    color: #3c3c3c;
+
+    span {
+        height: 1px / 14px * 1vw;
+        border-bottom: solid 1px / 14px * 1vw #d8d8d8;
+    }
+}

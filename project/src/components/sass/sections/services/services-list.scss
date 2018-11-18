@@ -1,0 +1,112 @@
+.services__list {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px / 14px * 1vw;
+  padding-right: 50px / 14px * 1vw;
+  padding-bottom: 110px / 14px * 1vw;
+  background-color: #3c3c3c
+}
+
+.services__first-column {
+  padding-top: 159px / 14px * 1vw;
+
+  &:nth-child(2) {
+    padding-top: 265px / 14px * 1vw;
+  }
+  &:nth-child(3) {
+    padding-top: 185px / 14px * 1vw;
+  }
+}
+
+.services__item {
+  position: relative;
+  margin-bottom: 134px / 14px * 1vw;
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &:hover .services__item-wrapp {
+    background-color: #ffffff;
+    border: solid 1px / 14px * 1vw #545454;
+  }
+
+  &:hover .services__item-title {
+    color: #3c3c3c;
+  }
+
+  &:hover .services__item-desc {
+    color: #3c3c3c;
+  }
+
+  &:hover .services__item-svg-wrap {
+    opacity: 1;
+  }
+
+  &:hover #services-arrow {
+    stroke: #3c3c3c; 
+  }
+}
+
+.services__item-wrapp {
+  position: relative;
+  width: 390px / 14px * 1vw;
+  padding-top: 40px / 14px * 1vw;
+  padding-bottom: 30px / 14px * 1vw;
+  padding-left: 35px / 14px * 1vw;
+  padding-right: 35px / 14px * 1vw;
+  background: #3c3c3c;
+  border: solid 1px / 14px * 1vw #545454;
+  z-index: 100;
+  transition: all .2s;
+}
+
+.services__item-title {
+  margin-bottom: 6px / 14px * 1vw;
+  font-family: Geometria;
+  font-size: 18px / 14px * 1vw;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  transition: all .2s;
+}
+
+.services__item-desc {
+  margin-bottom: 8px / 14px * 1vw;
+  font-family: Geometria;
+  font-size: 16px / 14px * 1vw;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  color: #d5d5d5;
+  transition: all .2s;
+}
+
+.services__link {
+  display: block;
+  text-align: right;
+}
+
+.services__arrow {
+  display: inline-block;
+  width: 43px / 14px * 1vw;
+  height: auto;
+}
+
+.services__item-svg-wrap {
+  position: absolute;
+  top: -56px / 14px * 1vw;
+  left: -10px / 14px * 1vw;
+  z-index: 1;
+  opacity: 0.2;
+  transition: all .2s;
+}
+
+.services__item-img {
+  height: 85px / 14px * 1vw;
+  width: auto;
+}

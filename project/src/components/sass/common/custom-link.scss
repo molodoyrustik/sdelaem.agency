@@ -1,0 +1,36 @@
+.custom-link {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    padding: 4px / 14px * 1vw 15px / 14px * 1vw;
+    font-family: Geometria;
+    font-size: 14px / 14px * 1vw;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #000000;
+    text-decoration: none;
+    z-index: 100;
+
+    &:after {
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 0;
+        content: '';
+        width: 50%;
+        height: 100%;
+        background-color: #d8d8d8;
+        z-index: -1;
+        transition: width 0.5s;
+    }
+
+    &:hover {
+        &:after {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+// settings
+@import "_misc/fonts";
+@import "_misc/mixins";
+@import "_misc/adjustment";
+@import "_misc/normalize";
+
+// common components
+@import "common/main";
+
+// common sections
+@import "sections/common/main";
+
+// pages
+@import "pages/index";
+@import "pages/contacts";
+@import "pages/about";
+@import "pages/blog";
+@import "pages/cases";
+@import "pages/case";
+@import "pages/services";
+@import "pages/service";
+
+// vendor
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
