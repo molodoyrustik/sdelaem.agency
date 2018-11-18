@@ -1,7 +1,7 @@
 {
   "apps":[
     {
-      "name": "www",
+      "name": "sdelaem.agency",
       "script": "./project/server.js",
       "cwd": "./project",
       "error_file": "../runtime/logs/node.error.log",
