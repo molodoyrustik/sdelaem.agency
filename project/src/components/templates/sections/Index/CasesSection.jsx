@@ -48,7 +48,7 @@ const CasesSection = (props) => {
             })
           }
         </ul>
-        <CustomLink href='#' className='cases-section__link' text='все кейсы'/>
+        <CustomLink href='/cases' className='cases-section__link' text='все кейсы'/>
     </div>
   );
 };

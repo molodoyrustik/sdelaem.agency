@@ -22,10 +22,10 @@ const Header = (props) => {
       </div>
       <ul className="header__contact-list">
         <li className="header__contact-item">
-          <a className='header__contact-link' href="#">{phone}</a>
+          <a className='header__contact-link' href={`tel:+${phone}`}>{phone}</a>
         </li>
         <li className="header__contact-item">
-          <a className='header__contact-link' href="#">{email}</a>
+          <a className='header__contact-link' href={`mailto:${email}`}>{email}</a>
         </li>
       </ul>
       <div className="header__search">

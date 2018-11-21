@@ -7,7 +7,7 @@ const LatestArticles = (props) => {
     <div className="latest-articles">
       <div className="latest-articles__top-wrapper">
         <h2 className='latest-articles__title'>Последние статьи в блоге</h2>
-        <CustomLink text='перейти в блог' href='#' className='latest-articles__link'/>
+        <CustomLink text='перейти в блог' href='/blog' className='latest-articles__link'/>
       </div>
       <ul className="latest-articles__list">
         <li className="latest-articles__item">

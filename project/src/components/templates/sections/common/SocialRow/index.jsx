@@ -16,13 +16,13 @@ const SocialRow = (props) => {
         <div className="social-row__desc">{socialsDesc}</div>
         <div className="social-row__list">
           <li className="social-row__item">
-            <a href="#" className="social-row__link social-row__link--vk">{vk}y</a>
+            <a href={`https://${vk.trim()}`} className="social-row__link social-row__link--vk">{vk}</a>
           </li>
           <li className="social-row__item">
-            <a href="#" className="social-row__link social-row__link--fb">{fb}</a>
+            <a href={`https://${fb.trim()}`} className="social-row__link social-row__link--fb">{fb}</a>
           </li>
           <li className="social-row__item">
-            <a href="#" className="social-row__link social-row__link--mail">{email}</a>
+            <a href={`mailto:${email}`} className="social-row__link social-row__link--mail">{email}</a>
           </li>
         </div>
        </div>

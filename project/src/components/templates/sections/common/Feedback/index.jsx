@@ -21,19 +21,19 @@ const Feedback = (props) => {
               <ul className="feedback__socials">
                   <li className="feedback__socials-item">
                       <img src="/images/icons/contacts/sms.svg" alt="" className="feedback__socials-img--sms"/>
-                      <a href="#" className="feedback__socials-link">{email}</a>
+                      <a href={`mailto:${email}`} className="feedback__socials-link">{email}</a>
                   </li>
                   <li className="feedback__socials-item">
                       <img src="/images/icons/contacts/skype.svg" alt="" className="feedback__socials-img--skype"/>
-                      <a href="#" className="feedback__socials-link">{skype}</a>
+                      <a href={`skype:${skype}`} className="feedback__socials-link">{skype}</a>
                   </li>
                   <li className="feedback__socials-item">
                       <img src="/images/icons/contacts/tg.svg" alt="" className="feedback__socials-img--tg"/>
-                      <a href="#" className="feedback__socials-link">{telegram}</a>
+                      <a href={`tg://resolve?domain=${telegram}`} className="feedback__socials-link">{telegram}</a>
                   </li>
                   <li className="feedback__socials-item">
                       <img src="/images/icons/contacts/phone.svg" alt="" className="feedback__socials-img--phone"/>
-                      <a href="#" className="feedback__socials-link">{phone}</a>
+                      <a href={`tel:+${phone}`} className="feedback__socials-link">{phone}</a>
                   </li>
               </ul>
           </div>

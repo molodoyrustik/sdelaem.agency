@@ -69,13 +69,13 @@ const Footer = (props) => {
               <a href={`http://${fb.trim()}`} className="footer__socials-link footer__socials-link--fb">{fb}</a>
             </li>
             <li className="footer__socials-item">
-              <a href={`http://${email.trim()}`} className="footer__socials-link footer__socials-link--mail">{email}</a>
+              <a href={`mailto:${email.trim()}`} className="footer__socials-link footer__socials-link--mail">{email}</a>
             </li>
             <li className="footer__socials-item">
               <a href={`http://${vk.trim()}`} className="footer__socials-link footer__socials-link--vk">{vk}</a>
             </li>
             <li className="footer__socials-item">
-              <a href={`http://${telegram.trim()}`} className="footer__socials-link footer__socials-link--telegram">{telegram}</a>
+              <a href={`tg://resolve?domain=${telegram.trim()}`} className="footer__socials-link footer__socials-link--telegram">{telegram}</a>
             </li>
           </ul>
         </div>
