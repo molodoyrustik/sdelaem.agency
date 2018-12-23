@@ -7,21 +7,21 @@ import PageHoc from './components/HOC/PageHoc.jsx';
 
 
 const Routes = [
-  {
-    path: '/case',
-    exact: true,
-    component: Case,
-  },
-  {
-    path: '/service',
-    exact: true,
-    component: Service,
-  },
-  {
-    path: '/article',
-    exact: true,
-    component: Article,
-  },
+  // {
+  //   path: '/case',
+  //   exact: true,
+  //   component: Case,
+  // },
+  // {
+  //   path: '/service',
+  //   exact: true,
+  //   component: Service,
+  // },
+  // {
+  //   path: '/article',
+  //   exact: true,
+  //   component: Article,
+  // },
   {
     path: '/',
     exact: true,

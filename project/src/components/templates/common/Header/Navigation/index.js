@@ -23,7 +23,10 @@ const Navigation = (props) => {
           <CustomLink text={'Кейс'} href={'/case'}/>
         </li>
         <li className="menu__item">
-          <CustomLink text={'Услуга'} href={'service'}/>
+          <CustomLink text={'Услуга'} href={'/service'}/>
+        </li>
+        <li className="menu__item">
+          <CustomLink text={'Статья'} href={'/article'}/>
         </li>
       </ul>
     </nav>

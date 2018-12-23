@@ -4,11 +4,13 @@ import { Helmet } from 'react-helmet';
 
 import Index from '../templates/pages/Index';
 import Services from '../templates/pages/Services';
+import Service from '../templates/pages/Service';
 import Cases from '../templates/pages/Cases';
+import Case from '../templates/pages/Case';
 import Blog from '../templates/pages/Blog';
+import Article from '../templates/pages/Article';
 import About from '../templates/pages/About';
 import Contacts from '../templates/pages/Contacts';
-import Case from '../templates/pages/Case';
 import NotFound from '../templates/pages/NotFound';
 
 
@@ -93,6 +95,14 @@ class Page extends Component {
     return <Services {...params} />;
   }
 
+  renderServices(page) {
+    const { acf } = page;
+    const params = {
+      acf
+    };
+    return <Service {...params} />;
+  }
+
   renderCases(page) {
     const { acf } = page;
     const params = {
@@ -165,6 +175,8 @@ class Page extends Component {
       case 'index':
         return this.renderIndex(page);
       case 'services':
+        return this.renderServices(page);
+      case 'service':
         return this.renderServices(page);
       case 'cases':
         return this.renderCases(page);
